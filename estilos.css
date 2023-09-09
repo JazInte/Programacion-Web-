@@ -1,0 +1,20 @@
+/* Cambiar el color de fondo de toda la página */
+body {
+    background-color: #fffbf7;
+}
+
+/* Cambiar el color del texto que va debajo del título */
+p {
+    color: #46484c;
+}
+
+/* Cambiar el color del texto promocional */
+strong {
+    color: #8b8b8c;
+}
+
+/* Cambiar el color de fondo del botón y el texto del botón a blanco */
+.boton {
+    background-color: #025157;
+    color: #fff;
+}
