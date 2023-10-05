@@ -1,8 +1,43 @@
-.header{
-    margin-top: 40px;
+.header {
+    margin-top: 20px;
     margin-left: 80px;
     margin-right: 20px;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #825157;
+    font-weight: 500;
+}
+.navbar ul {
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.actions {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.Bobx2 {
+    width: 35%;
+    height: 35%;
+    display: flex;
+    align-items: start;
 }
 
 body{
@@ -16,22 +51,56 @@ li{
 .header > * {
     display: inline-block;
 }
-.Bobx2{
-    width: 10%;
-}
-.navbar{
-    width: 70%;
-    text-align: center;
-    color: #825157;
-    font-weight: 500;
-}
-.actions{
-    width: 15%;
-    text-align: right;
-    font-size: 14px;
-    font-weight: 600;
-}
+
 .video1{
     width: 80vh;
 
+}
+
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+}
+.main.navigation{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.main .navigation{
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+}
+
+.video1 {
+    max-width: 100%;
+    max-height: 100%;
+}
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publish {
+    text-align: center;
 }
